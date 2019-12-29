@@ -5,7 +5,7 @@ class PigLatinizer
     @str = text.downcase
   end
   
-  def translate(str)
+  def translate
     alpha = ('a'..'z').to_a
     vowels = %w[a e i o u]
     consonants = alpha - vowels
