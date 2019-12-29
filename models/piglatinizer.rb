@@ -13,6 +13,7 @@ class PigLatinizer
 
     if vowels.include?(str[0])
       str + 'way'
+      str.capitalize
     elsif consonants.include?(str[0]) && consonants.include?(str[1])
       str[2..-1] + str[0..1] + 'ay'
     elsif consonants.include?(str[0])
