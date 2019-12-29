@@ -1,11 +1,11 @@
 class PigLatinizer
   attr_reader :str
  
-  def initialize(str)
-    @str = str.downcase
-  end
+  # def initialize(str)
+  #   @str = str.downcase
+  # end
   
-  def translate
+  def translate(str)
     alpha = ('a'..'z').to_a
     vowels = %w[a e i o u]
     consonants = alpha - vowels
