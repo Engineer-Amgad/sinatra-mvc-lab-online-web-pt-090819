@@ -1,3 +1,4 @@
+
 def translate(str)
   alpha = ('a'..'z').to_a
   vowels = %w[a e i o u]
